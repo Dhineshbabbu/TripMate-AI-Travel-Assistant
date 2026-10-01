@@ -1,0 +1,12 @@
+langchain_core
+langchain_community
+langchain_huggingface
+langgraph
+langchain_groq
+pandas
+pinecone
+pydantic-settings
+python-dotenv
+langchain_pinecone
+pinecone
+protobuf==3.20.3

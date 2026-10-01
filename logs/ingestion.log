@@ -1,0 +1,54 @@
+2026-10-01 17:35:21 | INFO | tripmate_ingestion | Loading embedding model: sentence-transformers/all-MiniLM-L6-v2
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Embedding model loaded successfully.
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | ========================================
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | TripMate RAG ingestion started.
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | ========================================
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Searching destination directory: D:\AgneticAI_Learning\Bitcot\TripMateAgent\data
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Found 4 destination file(s).
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Reading destination file: bangkok.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Detected destination: Bangkok
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'VISA & ENTRY' for Bangkok → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'BEST TIME TO VISIT' for Bangkok → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'LOCAL CUSTOMS' for Bangkok → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'PACKING TIPS' for Bangkok → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'SAFETY & HEALTH' for Bangkok → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Created 5 chunks from bangkok.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Reading destination file: barcelona.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Detected destination: Barcelona
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'VISA & ENTRY' for Barcelona → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'BEST TIME TO VISIT' for Barcelona → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'LOCAL CUSTOMS' for Barcelona → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'PACKING TIPS' for Barcelona → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'SAFETY & HEALTH' for Barcelona → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Created 5 chunks from barcelona.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Reading destination file: reykjavik.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Detected destination: Reykjavik
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'VISA & ENTRY' for Reykjavik → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'BEST TIME TO VISIT' for Reykjavik → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'LOCAL CUSTOMS' for Reykjavik → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'PACKING TIPS' for Reykjavik → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'SAFETY & HEALTH' for Reykjavik → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Created 5 chunks from reykjavik.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Reading destination file: tokyo.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Detected destination: Tokyo
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'VISA & ENTRY' for Tokyo → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'BEST TIME TO VISIT' for Tokyo → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'LOCAL CUSTOMS' for Tokyo → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'PACKING TIPS' for Tokyo → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Section 'SAFETY & HEALTH' for Tokyo → 1 chunk(s)
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Created 5 chunks from tokyo.txt
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Total documents/chunks created: 20
+2026-10-01 17:35:29 | INFO | tripmate_ingestion | Connecting to Pinecone...
+2026-10-01 17:35:31 | INFO | tripmate_ingestion | Creating Pinecone index: tripmate-destinations
+2026-10-01 17:35:39 | INFO | tripmate_ingestion | Pinecone index created successfully.
+2026-10-01 17:35:39 | INFO | tripmate_ingestion | Starting batch ingestion.
+2026-10-01 17:35:39 | INFO | tripmate_ingestion | Total chunks: 20 | Batch size: 50
+2026-10-01 17:35:39 | INFO | tripmate_ingestion | Processing batch 1 | chunks 1-20
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | Batch 1 successfully inserted.
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | All batches successfully ingested.
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | ========================================
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | TripMate RAG ingestion completed.
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | Index: tripmate-destinations
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | Total chunks: 20
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | Log file: D:\AgneticAI_Learning\Bitcot\TripMateAgent\logs\ingestion.log
+2026-10-01 17:35:43 | INFO | tripmate_ingestion | ========================================
