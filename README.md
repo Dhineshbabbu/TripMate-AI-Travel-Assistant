@@ -22,17 +22,6 @@ pip install -r requirements.txt
 
 python -m agent.cli
 
-Example:
-
-============================================================
-        TripMate - AI Travel Assistant
-============================================================
-Ask me anything about Bangkok, Barcelona, Reykjavik,
-or Tokyo.
-Type 'exit' or 'quit' to stop.
-============================================================
-
-You: 
 
 # Author
 
